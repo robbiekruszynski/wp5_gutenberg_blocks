@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding:35px 0;
+  background: red;
+}
+
+.container .text {
+  background: #f1f1f1;
+  padding:45px;
+  right: -5%;
+  position: relative;
+  box-shadow: 30px 30px 35px -12px rgba(0,0,0, 0.2);
+  width: 40%;
+}
+
+.container .text p {
+  margin: 0;
+}
+
+.container .image {
+  width:60%;
+}
+
+.container .image img{
+  border-radius: 20% 5% 20% 0;
+}
